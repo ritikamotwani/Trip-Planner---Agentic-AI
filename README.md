@@ -15,7 +15,7 @@ Each folder includes its own `README.md` file with detailed setup and run instru
 To run the project locally, follow these steps:
 
 1. Clone the Repository
-2. Navigate to the `frontend` and `backend` directories and install the required dependencies for each. Follow the other steps
+2. Navigate to the `frontend` and `backend` directories and install the required dependencies for each. Follow the other steps.
 
 ## Preview
 
