@@ -1,6 +1,6 @@
-backend/venv/*
-frontend/node_modules/*
-frontend/dist/*
+trip_planner_ai_full/backend/venv/*
+trip_planner_ai_full/frontend/node_modules/*
+trip_planner_ai_full/frontend/dist/*
 .DS_Store
-frontend/.DS_Store
-frontend/src/.DS_Store
+trip_planner_ai_full/frontend/.DS_Store
+trip_planner_ai_full/frontend/src/.DS_Store

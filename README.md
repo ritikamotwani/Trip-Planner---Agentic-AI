@@ -19,5 +19,5 @@ To run the project locally, follow these steps:
 
 ## Preview
 
-![Trip Planner AI Frontend Preview](frontend/src/assets/readme.png)
+![Trip Planner AI Frontend Preview](trip_planner_ai_full/frontend/src/assets/readme.png)
 
