@@ -128,7 +128,7 @@ export default function LandingPage() {
 
       {/* Footer */}
       <div className="footer-note">
-        Built by Ritika. I'm building this in my free time. ⌛ Work in progress. If you want to contribute, <a href="https://github.com/ritikamotwani/wanderlust" target="_blank" rel="noopener noreferrer">GitHub</a>
+        Built by Ritika. I'm building this in my free time. ⌛ Work in progress. If you want to contribute, <a href="https://github.com/ritikamotwani/Trip-Planner---Agentic-AI" target="_blank" rel="noopener noreferrer">GitHub</a>
       </div>
     </div>
   );
