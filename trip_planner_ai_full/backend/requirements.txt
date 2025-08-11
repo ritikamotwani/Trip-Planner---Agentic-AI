@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+qdrant-client
+python-multipart
+pydantic
+openai
+tiktoken
+httpx
+asyncio
+openai-agents
+eval_type_backport

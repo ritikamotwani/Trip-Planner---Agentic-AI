@@ -1,0 +1,103 @@
+.chat-wrapper {
+    display: flex;
+    flex-direction: row;
+    background: #fffdfc;
+    border-radius: 1rem;
+    overflow: hidden;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+    height: calc(100dvh - 20px);
+  }
+  
+  .chat-container {
+    flex: 1 1 50%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+  
+  .chat-box {
+    flex: 1;
+    overflow-y: auto;
+    padding: 1rem;
+  }
+  .chat-message {
+    display: flex;
+    margin-bottom: 0.75rem;
+    padding: 0 0.5rem;
+  }
+  
+  .chat-message.user {
+    justify-content: flex-end;
+  }
+  
+  .chat-message.assistant {
+    justify-content: flex-start;
+  }
+  
+  .chat-bubble {
+    max-width: 75%;
+    padding: 0.75rem 1rem;
+    border-radius: 20px;
+    font-size: 1rem;
+    line-height: 1.4;
+    white-space: pre-wrap;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  }
+  
+  .chat-message.user .chat-bubble {
+    background: #e0f2fe;
+    color: #111827;
+    border-bottom-right-radius: 0;
+  }
+  
+  .chat-message.assistant .chat-bubble {
+    background: #f3e8ff;
+    color: #4c1d95;
+    border-bottom-left-radius: 0;
+  }
+  
+  .chat-input-wrapper {
+    display: flex;
+    align-items: center;
+    padding: 0.75rem;
+    border-top: 1px solid #eee;
+    background: #fff;
+  }
+  
+  .chat-input {
+    flex: 1;
+    font-size: 1rem;
+    padding: 0.6rem 1rem;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    outline: none;
+  }
+  
+  .chat-send {
+    margin-left: 0.5rem;
+    background: #6b21a8;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 0.6rem 1.2rem;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  /* RIGHT IMAGE PANEL */
+  .chat-side-panel {
+    flex: 1 1 50%;
+    position: relative;
+    background: url('../../assets/crater.png') center/cover no-repeat;
+  }
+  
+  .chat-side-overlay {
+    position: absolute;
+    bottom: 1.5rem;
+    right: 1.5rem;
+    color: white;
+    font-size: 1.25rem;
+    font-weight: 500;
+    text-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
+  }
+  
